@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root{
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+body{
+    background-color: var(--Very-Dark-Blue);
+    font-family: "Overpass", sans-serif;
+    font-size: 15px;
+    margin: 1.5rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+button{
+    font-family: inherit;
+}
+.container-for-adding-rating, .rating-result{
+    background-color: var(--Dark-Blue);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 400px;
+    /* box-shadow: 10px 10px 13px 31px hsl(210, 8%, 10%); */
+}
+.con-img{
+    background-color: hsl(213, 8%, 26%);
+    padding: .7rem;
+    border-radius: 2rem;
+}
+.con-p{
+    line-height: 1.5;
+    color: var(--Light-Grey);
+    margin: 0.5rem 0 .5rem .5rem;
+}
+.h1{
+    margin: 1.5rem 0 .5rem .5rem;
+    color: white;
+}
+.con-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1.7rem 0 2rem .5rem;
+}
+.li-button{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    padding-top: .3rem;
+    border: none;
+    background-color: hsl(213, 8%, 26%);
+    color: var(--White);
+    cursor: pointer;
+}
+.li-button:hover{
+    background-color: var(--Orange);
+}
+.li-button:focus{
+    background-color: var(--Light-Grey);
+}
+.submit-button{
+    width: 97%;
+    margin-left: .5rem;
+    border-radius: 2rem;
+    border: none;
+    padding: 10px;
+    color: var(--White);
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    background-color: var(--Orange);
+    cursor: pointer;
+}
+.submit-button:hover{
+    background-color: var(--White);
+    color: var(--Orange);
+}
+.rating-result img{
+    display: block;
+    margin: 0 auto 2rem;
+}
+#res-p1{
+    color: var(--Orange);
+    background-color: hsl(213, 8%, 26%);
+    border-radius: 2rem;
+    padding: 4px;
+    width: 12rem;
+    margin: 0 auto 2rem;
+    padding-top: .4rem;
+    /* padding-left: .5rem; */
+    text-align: center;
+}
+.res-h1{
+    color: var(--White);
+    text-align: center;
+    margin-bottom: .7rem;
+}
+.res-p2{
+    color: var(--Light-Grey);
+    text-align: center;
+}
+.hidden-res{
+    display: none;
+}
+
