@@ -23,6 +23,6 @@ Welcome to the Rating Webpage! This project showcases a beautifully designed rat
 2. **Navigate to the project directory**:
    ```bash
    cd path/to/your/directory
-3. **Open the Terminal & Edit the Required File**:
+3. **Open the Terminal & Edit the Required File**
 
 **Explore it Live:** https://rating_card.surge.sh/
