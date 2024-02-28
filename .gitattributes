@@ -1,1 +1,3 @@
-*.js linguist-detect=true
+* linguist-language=JavaScript
+*.css linguist-language=CSS
+*.html linguist-language=HTML
